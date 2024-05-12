@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico"
+      type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+
+          <figure class="avatar-box">
+            <img src="./assets/images/my-avatar.png" alt="Pranav Pisal"
+              width="80">
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Pranav Pisal">Pranav Pisal</h1>
+
+            <p class="title">Java developer</p>
+            <p class="title">Full-stack developer</p>
+            <p class="title">Problem Solver</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:pranavpisal2528@gmail.com"
+                  class="contact-link">pranavpisal2528@gmail.com</a>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+919139966859" class="contact-link">+91
+                  9139966859</a>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2002-01-28">January 28, 2002</time>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Pune, Maharashtra, India</address>
+              </div>
+
+            </li>
+
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <div class="icon-box">
+              <li class="social-item">
+                <a href="https://wa.me/919139966859" target="_blank"
+                  class="social-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+            </div>
+            <div class="icon-box">
+              <li class="social-item">
+                <a href="https://www.linkedin.com/in/pranav-pisal-06a4271b7/"
+                  target="_blank" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+            </div>
+            <div class="icon-box">
+              <li class="social-item">
+                <a href="https://www.instagram.com/_pranav_p.exe/"
+                  target="_blank"
+                  class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </div>
+            <div class="icon-box">
+              <li class="social-item">
+                <a href="https://www.facebook.com/pranav.pisal.1"
+                  target="_blank"
+                  class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+            </div>
+          </ul>
+
+        </div>
+
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about  active" data-page="about">
+
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a Computer Engineer with expertise in Java development,
+              database management, and more. I excel in solving complex problems
+              and crafting user-friendly solutions. With a blend of technical
+              prowess and creative flair, I aim to deliver innovative solutions
+              that exceed expectations. My passion for continuous learning and
+              collaboration drives me to push the boundaries of what's possible
+              in technology and design. Let's create something remarkable
+              together
+            </p>
+
+            <p>
+              My goal is to build products that not only meet the needs of users
+              but also exceed their expectations. Whether it's developing robust
+              software applications, optimizing database performance, or
+              exploring emerging technologies, I am dedicated to delivering
+              high-quality solutions that drive success.
+            </p>
+          </section>
+
+          <!--
+          - service
+         -->
+
+          <section class="service">
+
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img width="40" height="40"
+                    src="https://img.icons8.com/ios-filled/40/FAB005/java-coffee-cup-logo--v1.png"
+                    alt="java-coffee-cup-logo--v1" /> </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend development</h4>
+
+                  <p class="service-item-text">
+                    Expertise in backend development using Spring Boot and
+                    related technologies for building robust and scalable web
+                    applications.
+                  </p>
+                </div>
+
+              </li>
+
+              <!-- <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+
+              </li> -->
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img width="40" height="32"
+                    src="https://img.icons8.com/ios/40/FAB005/programming.png"
+                    alt="programming" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level
+                    both static and dynamic websites or webapps.
+                  </p>
+                </div>
+
+              </li>
+
+              <!-- <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-app.svg" alt="mobile app icon"
+                    width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+
+              </li> -->
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img width="40" height="40"
+                    src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/64/FAB005/external-critical-thinking-education-2-kmg-design-detailed-outline-kmg-design.png"
+                    alt="external-critical-thinking-education-2-kmg-design-detailed-outline-kmg-design" />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Problem Solver</h4>
+                  <p class="service-item-text">I excel in solving complex
+                    problems using Data Structures and Algorithms (DSA),
+                    providing efficient and effective solutions. Let's tackle
+                    challenges together!</p>
+                  <div class="button-container">
+                    <a href="https://leetcode.com/u/pranavpisal2528/"
+                      class="btn-dark-mode" target="_blank"
+                      rel="noopener noreferrer">LeetCode</a>
+                    <a
+                      href="https://www.geeksforgeeks.org/user/pranavpisal2528/"
+                      class="btn-dark-mode" target="_blank"
+                      rel="noopener noreferrer">GFG Profile</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img width="40" height="40"
+                    src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/FAB005/external-database-cryptocurrency-vitaliy-gorbachev-lineal-vitaly-gorbachev-1.png"
+                    alt="external-database-cryptocurrency-vitaliy-gorbachev-lineal-vitaly-gorbachev-1" />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Database Management</h4>
+                  <p class="service-item-text">Proficient in managing databases
+                    to ensure efficient data storage, retrieval, and
+                    manipulation. Let's optimize your data infrastructure!</p>
+                </div>
+              </li>
+
+              <!-- Project Management -->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img width="40" height="40"
+                    src="https://img.icons8.com/external-outline-satawat-anukul/40/FAB005/external-designthinking-design-thinking-outline-outline-satawat-anukul-23.png"
+                    alt="external-designthinking-design-thinking-outline-outline-satawat-anukul-23" />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Project Management</h4>
+                  <p class="service-item-text">Efficient management of projects
+                    from initiation to completion.</p>
+                </div>
+              </li>
+
+              <!-- Agile Methodologies -->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img width="32" height="32"
+                    src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/FAB005/external-scrum-product-management-solid-solidglyph-m-oki-orlando.png"
+                    alt="external-scrum-product-management-solid-solidglyph-m-oki-orlando" />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Agile Methodologies</h4>
+                  <p class="service-item-text">Adopting agile methodologies to
+                    streamline development processes and enhance
+                    collaboration.</p>
+                </div>
+              </li>
+
+              <!-- Version Control (Git) -->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img width="40" height="40"
+                    src="https://img.icons8.com/ios-filled/50/FAB005/git.png"
+                    alt="git" /> </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Version Control (Git)</h4>
+                  <p class="service-item-text">Utilizing version control systems
+                    like Git to manage codebase efficiently.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img width="40" height="40"
+                    src="https://img.icons8.com/external-wanicon-lineal-wanicon/40/FAB005/external-photography-art-and-design-wanicon-lineal-wanicon.png"
+                    alt="external-photography-art-and-design-wanicon-lineal-wanicon" />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+                  <p class="service-item-text">
+                    I make high-quality photos of any category at a professional
+                    level.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </section>
+
+          <!--
+          - testimonials
+         -->
+
+          <section class="testimonials">
+
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Amol Patil"
+                      width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title"
+                    data-testimonials-title>Amol Patil</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "Pranav was a reliable and resourceful member of our team. He joined our team as a motivated learner and quickly demonstrated an eagerness to absorb knowledge and take on new challenges. Their growth throughout the internship was impressive, and they left with valuable insights and skills."
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-2.png"
+                      alt="Dipali Khairnar"
+                      width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title"
+                    data-testimonials-title>Dipali Khairnar</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "Pranav is a bright and inquisitive student who consistently demonstrates thoughtful engagement with course material. His questions and insights in class enrich our discussions. HE possesses exceptional dedication. His commitment to understanding complex concepts and his thorough preparation for assignments is commendable"
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-3.png"
+                      alt="Priyadarshani Patil"
+                      width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title"
+                    data-testimonials-title>Priyadarshani Patil</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "Pranav was a standout student in my class, displaying a natural curiosity and aptitude for engineering concepts. Their insightful questions and thoughtful contributions enriched our classroom discussions."
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-4.png" alt="Devdutt Mane"
+                      width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title"
+                    data-testimonials-title>Devdutt Mane</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "Pranav demonstrated strong problem-solving skills and the ability to apply theoretical knowledge to practical engineering challenges. Their project work showcased creativity and a dedication to finding innovative solutions."
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </section>
+
+          <!--
+          - testimonials modal
+         -->
+
+          <div class="modal-container" data-modal-container>
+
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Amol Patil"
+                    width="80" data-modal-img>
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              </div>
+
+              <div class="modal-content">
+
+                <h4 class="h3 modal-title" data-modal-title>Amol Patil</h4>
+                <p>Professor</p>
+
+                <time datetime="2022-05-24">24 May, 2022</time>
+
+                <div data-modal-text>
+                  <p>
+                    "Pranav was a reliable and resourceful member of our team. He joined our team as a motivated learner and quickly demonstrated an eagerness to absorb knowledge and take on new challenges. Their growth throughout the internship was impressive, and they left with valuable insights and skills. "
+                  </p>
+                </div>
+
+              </div>
+
+            </section>
+
+          </div>
+
+          <!--
+          - tech stacks
+         -->
+
+          <section class="clients">
+
+            <h3 class="h3 clients-title">Tech Stacks</h3>
+
+            <ul class="clients-list has-scrollbar">
+
+              <li class="clients-item">
+                <a href="https://www.java.com/en/" target="_blank">
+                  <img width="70" height="70"
+                    src="https://img.icons8.com/ios/100/4285f4/java-coffee-cup-logo--v1.png"
+                    alt="java-coffee-cup-logo--v1" />
+                </a>
+              </li>
+
+              <!-- Spring Boot -->
+              <li class="clients-item">
+                <a href="https://spring.io/projects/spring-boot"
+                  target="_blank">
+                  <img width="70" height="70"
+                    src="https://img.icons8.com/color/96/000000/spring-logo.png"
+                    alt="Spring Boot">
+                </a>
+              </li>
+              <!-- Hibernate -->
+              <li class="clients-item">
+                <a href="https://hibernate.org/" target="_blank">
+                  <img width="70" height="70"
+                    src="assets\icon\hibernate.svg"
+                    alt="Hibernate">
+                </a>
+              </li>
+
+              <!-- MySQL -->
+              <li class="clients-item">
+                <a href="https://www.mysql.com/" target="_blank">
+                  <img width="70" height="70"
+                    src="https://img.icons8.com/color/96/000000/mysql-logo.png"
+                    alt="MySQL">
+                </a>
+              </li>
+
+              <!-- MongoDB -->
+              <li class="clients-item">
+                <a href="https://www.mongodb.com/" target="_blank">
+                  <img width="70" height="70"
+                    src="https://img.icons8.com/color/96/000000/mongodb.png"
+                    alt="MongoDB">
+                </a>
+              </li>
+
+              <!-- TypeScript -->
+              <li class="clients-item">
+                <a href="https://www.typescriptlang.org/" target="_blank">
+                  <img width="70" height="70"
+                    src="https://img.icons8.com/color/96/000000/typescript.png"
+                    alt="TypeScript">
+                </a>
+              </li>
+
+              <!-- JSP -->
+              <li class="clients-item">
+                <a href="https://www.oracle.com/java/technologies/jspt.html"
+                  target="_blank">
+                  <img width="70" height="70" src="assets\icon\jsp.svg"
+                    alt="JSP" />
+                </a>
+              </li>
+
+              <!-- Thymeleaf -->
+              <li class="clients-item">
+                <a href="https://www.thymeleaf.org/" target="_blank">
+                  <img width="70" height="70" src="assets\icon\thymeleaf.svg"
+                    alt="Thymeleaf" />
+                </a>
+              </li>
+
+              <!-- HTML -->
+              <li class="clients-item">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                  target="_blank">
+                  <img width="70" height="70" src="assets\icon\html.svg"
+                    alt="HTML" />
+                </a>
+              </li>
+
+              <!-- CSS -->
+              <li class="clients-item">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                  target="_blank">
+                  <img width="70" height="70" src="assets\icon\css.svg"
+                    alt="CSS" />
+                </a>
+              </li>
+
+              <!-- Postman -->
+              <li class="clients-item">
+                <a href="https://www.postman.com/" target="_blank">
+                  <img width="70" height="70"
+                    src="assets\icon\postman.svg"
+                    alt="Postman">
+                </a>
+              </li>
+
+              <!-- JSON -->
+              <li class="clients-item">
+                <a href="https://www.json.org/" target="_blank">
+                  <img width="70" height="70"
+                    src="assets\images\json.svg"
+                    alt="JSON">
+                </a>
+              </li>
+
+              <!-- XML -->
+              <li class="clients-item">
+                <a href="https://www.w3.org/XML/" target="_blank">
+                  <img width="70" height="70"
+                    src="assets\icon\xml.svg"
+                    alt="XML">
+                </a>
+              </li>
+
+              <!-- IntelliJ IDEA -->
+              <li class="clients-item">
+                <a href="https://www.jetbrains.com/idea/" target="_blank">
+                  <img width="70" height="70"
+                    src="https://img.icons8.com/color/96/000000/intellij-idea.png"
+                    alt="IntelliJ IDEA">
+                </a>
+              </li>
+
+              <!-- Eclipse -->
+              <li class="clients-item">
+                <a href="https://www.eclipse.org/" target="_blank">
+                  <img width="70" height="70"
+                    src="assets\icon\eclipse.svg"
+                    alt="Eclipse">
+                </a>
+              </li>
+
+              <!-- SQL -->
+              <li class="clients-item">
+                <a href="https://www.w3schools.com/sql/" target="_blank">
+                  <img width="70" height="70"
+                    src="https://img.icons8.com/color/96/000000/sql.png"
+                    alt="SQL">
+                </a>
+              </li>
+
+              <!-- GitHub -->
+              <li class="clients-item">
+                <a href="https://github.com/" target="_blank">
+                  <img width="70" height="70"
+                    src="https://img.icons8.com/bubbles/50/github.png"
+                    alt="github" />
+                </a>
+              </li>
+
+              <!-- Git -->
+              <li class="clients-item">
+                <a href="https://git-scm.com/" target="_blank">
+                  <img width="70" height="70" src="assets\icon\git.svg"
+                    alt="Git" />
+                </a>
+              </li>
+
+              <!-- Jira -->
+              <li class="clients-item">
+                <a href="https://www.atlassian.com/software/jira"
+                  target="_blank">
+                  <img width="70" height="70" src="assets\icon\jira.svg"
+                    alt="Jira" />
+                </a>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Bachelor of Engineering
+                  (Computer Engg.) (CGPA : 8.57)</h4>
+
+                <span>2019 — 2023</span>
+
+                <p class="timeline-text">
+                  The Bachelor of Engineering in Computer Engineering program
+                  offers a comprehensive curriculum designed to equip students
+                  with a strong foundation in both hardware and software aspects
+                  of computing. Through a blend of theoretical knowledge and
+                  practical applications, students delve into areas such as
+                  computer architecture, programming languages, algorithms,
+                  software engineering, and computer networks. The program
+                  emphasizes critical thinking, problem-solving skills, and
+                  hands-on experience through projects and internships,
+                  preparing graduates for diverse career opportunities in
+                  software development, system analysis, cybersecurity, and
+                  emerging technologies.
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">High school Certificate
+                  (Percentage : 66.00%)</h4>
+
+                <span>2018 — 2019</span>
+
+                <p class="timeline-text">
+                  The Higher Secondary Certificate (HSC) education focuses on
+                  mathematics, science, physics, chemistry, and related
+                  subjects. It aims to provide a strong foundation in these
+                  areas through rigorous coursework, laboratory experiments, and
+                  problem-solving exercises. Students develop analytical
+                  thinking and scientific inquiry skills, preparing them for
+                  further studies in engineering, medicine, science, and
+                  technology.
+                </p>
+
+              </li>
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Secondary school Certificate
+                  (Percentage : 87.80%)</h4>
+
+                <span>20016 — 2017</span>
+
+                <p class="timeline-text">
+                  The Secondary School Certificate (SSC) or 10th standard
+                  education provides students with a fundamental understanding
+                  of various subjects essential for their academic and personal
+                  development. This stage of education lays the groundwork for
+                  future learning by covering core subjects such as Mathematics,
+                  Science, Social Studies, English, and languages. Successful
+                  completion of the SSC examination demonstrates proficiency in
+                  fundamental knowledge and serves as a crucial milestone in a
+                  student's academic journey, paving the way for further
+                  education and career pursuits.
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Internship</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Jr. Java
+                  developer/Intern</h4>
+
+                <span>Feb 2022 — May 2022</span>
+
+                <p class="timeline-text">
+                  During my Junior Java internship, I gained hands-on experience
+                  in Java development, working on real-world projects alongside
+                  seasoned professionals. I contributed to application
+                  development, improved my programming skills, and learned to
+                  work effectively in a team. This internship solidified my
+                  understanding of Java and prepared me for future challenges in
+                  software engineering.
+                </p>
+
+              </li>
+            </ol>
+
+          </section>
+
+          <section class="skill">
+
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Java development</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Dynamic web developement</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Database Management</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+
+              </li>
+
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Structures and Algorithms</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%;"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+          <br>
+
+          <div class="resume-download-btn">
+            <a
+              href="https://drive.google.com/file/d/1i_KKNqOozUQD_fALlbXBndcFVDLJS1u6/view?usp=drive_link"
+              download class="btn btn-primary" target="_blank">
+              <i class="fas fa-file-download"></i> Download Resume
+              <span class="sr-only">Download Resume (PDF)</span>
+            </a>
+          </div>
+
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+
+            <!-- 
+              <ul class="filter-list">
+
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+
+            </ul>
+          -->
+            <!---->
+            <div class="filter-select-box">
+
+              <button class="filter-select" data-select>
+
+                <div class="select-value" data-selecct-value>Select
+                  category</div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+
+              </button>
+
+              <ul class="select-list">
+
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <ul class="project-list">
+
+              <li class="project-item  active" data-filter-item
+                data-category="web development">
+                <a href="https://github.com/Pranav128/online_banking_webapp"
+                  target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-1.jpg" alt="finance"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Finance</h3>
+
+                  <p class="project-category">Web Developement</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item
+                data-category="web development">
+                <a href="https://github.com/Pranav128/Problem-Solving" target="_blank">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-2.png" alt="orizon"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Leetcode/GFG Problems</h3>
+
+                  <p class="project-category">Problem Solving</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item
+              data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm."
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Easy School webapp</h3>
+
+                <p class="project-category">Web Developement</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item
+              data-category="web design">
+              <a href="https://github.com/Pranav128/spring-mvc-crud/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CRUD Application</h3>
+
+                <p class="project-category">Web Developement</p>
+
+              </a>
+            </li>
+
+              <li class="project-item  active" data-filter-item
+                data-category="web design">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-3.jpg" alt="fundo"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">E-commerse Website</h3>
+
+                  <p class="project-category">Web Developement</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item
+                data-category="applications">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-4.png" alt="brawlhalla"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Personal Portfolio</h3>
+
+                  <p class="project-category">Web Developement</p>
+
+                </a>
+              </li>
+
+
+<!-- 
+              <li class="project-item  active" data-filter-item
+                data-category="web development">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-7.png" alt="summary"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item
+                data-category="applications">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-8.jpg" alt="task manager"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item
+                data-category="web development">
+                <a href="#">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/project-9.png" alt="arrival"
+                      loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+
+                </a>
+              </li> -->
+
+            </ul>
+
+          </section>
+
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+
+            <ul class="blog-posts-list">
+
+              <li class="blog-post-item">
+                <a
+                  href="https://medium.com/@pranavpisal2528/essential-software-engineering-principles-3998cfa4f350"
+                  target="_blank">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-1.png"
+                      alt="Software Principles" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Engineering</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-05-07">May 07, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Essential Software
+                      Engineering Principles</h3>
+
+                    <p class="blog-text">
+                      Learn the fundamental principles that guide successful software development. Build better software, faster                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="Introduction to Agile Methodology: Understanding Scrum in Jira">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-2.jpg"
+                      alt="Agile Methodology" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Engineering</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-05-07">May 07, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">An Introduction to Agile Methodology: Understanding Scrum in Jira</h3>
+
+                    <p class="blog-text">
+                      Best Software developement methodology and intro to scrum and sprint.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://medium.com/@pranavpisal2528/the-power-of-positive-thinking-why-its-essential-for-a-fulfilling-life-1753e56d1be2" target="_blank">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-3.jpg"
+                      alt="positive thinking" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Personality</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-05-07">May 07, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">The Power of Positive Thinking: Why It's Essential for a Fulfilling Life</h3>
+
+                    <p class="blog-text">
+                      Discover the power of positive thinking and unlock a more fulfilling life. Improve your mental and physical well-being, and increase your resilience.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://medium.com/@pranavpisal2528/work-from-home-vs-work-from-office-finding-the-best-fit-for-you-e255e4f8ff3c" target="_blank">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-4.jpg"
+                      alt="WFH vs WFO" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Work Balance</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-05-07">May 07, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Work from Home vs. Work from Office: Finding the Best Fit for You</h3>
+
+                    <p class="blog-text">
+                      Work from home or work from office?  Discover the pros and cons to help you find the work style that suits you best.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://medium.com/@pranavpisal2528/exploring-time-a-guide-to-different-types-of-watches-3e58d3a3564a" target="_blank">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-5.jpg"
+                      alt="watches" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Knowledge</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-05-07">May 07, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Exploring Time: A Guide to Different Types of Watches</h3>
+
+                    <p class="blog-text">
+                      From classic elegance to high-tech marvels – Dive into the world of watches and discover your perfect timepiece.
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://medium.com/@pranavpisal2528/the-role-of-sleep-in-optimal-health-and-well-being-why-rest-matters-1a0bd8850f2b" target="_blank">
+
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/blog-6.jpg"
+                      alt="sleep" loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+
+                    <div class="blog-meta">
+                      <p class="blog-category">Helath</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2024-05-07">May 07, 2024</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">The Role of Sleep in Optimal Health and Well-being: Why Rest Matters</h3>
+
+                    <p class="blog-text">
+                      Unlock the power of sleep – improve your health, mood, and productivity with better quality rest.
+
+                    </p>
+
+                  </div>
+
+                </a>
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14719.78835864215!2d73.6981501!3d18.524545!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1647609513213!5m2!1sen!2sin"
+                width="400" height="300" loading="lazy"></iframe>
+
+            </figure>
+          </section>
+
+          <section class="contact-form">
+
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form >
+
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input"
+                  placeholder="Full name" required data-form-input>
+
+                <input type="email" name="email" class="form-input"
+                  placeholder="Email address" required data-form-input>
+              </div>
+
+              <textarea name="message" class="form-input"
+                placeholder="Your Message" required data-form-input></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+
+            </form>
+
+          </section>
+
+        </article>
+
+      </div>
+
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+
+</html>
