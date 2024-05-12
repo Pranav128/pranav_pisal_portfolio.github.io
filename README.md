@@ -1,8 +1,10 @@
 # Pranav's Portfolio Website
 
-![Portfolio Screenshot](screenshot.png)
-![Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+![Portfolio Screenshot](assets/images/demo.png)
+- Desktop Demo
+![Desktop Demo](assets/images/demo-desktop.png "Desktop Demo")
+- Mobile Demo
+![Mobile Demo](assets/images/demo-mobile.png "Mobile Demo")
 
 ## Introduction
 
