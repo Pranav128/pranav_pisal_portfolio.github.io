@@ -115,24 +115,55 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 
 
-// contact form variables
-const form = document.querySelector("[data-form]");
-const formInputs = document.querySelectorAll("[data-form-input]");
-const formBtn = document.querySelector("[data-form-btn]");
+// // contact form variables
+// const form = document.querySelector("[data-form]");
+// const formInputs = document.querySelectorAll("[data-form-input]");
+// const formBtn = document.querySelector("[data-form-btn]");
 
-// add event to all form input field
-for (let i = 0; i < formInputs.length; i++) {
-  formInputs[i].addEventListener("input", function () {
+// // add event to all form input field
+// for (let i = 0; i < formInputs.length; i++) {
+//   formInputs[i].addEventListener("input", function () {
 
-    // check form validation
-    if (form.checkValidity()) {
-      formBtn.removeAttribute("disabled");
-    } else {
-      formBtn.setAttribute("disabled", "");
-    }
+//     // check form validation
+//     if (form.checkValidity()) {
+//       formBtn.removeAttribute("disabled");
+//     } else {
+//       formBtn.setAttribute("disabled", "");
+//     }
 
+//   });
+// }
+
+document.addEventListener("DOMContentLoaded", function () {
+  emailjs.init("JmYioZTg8AuZVrVGp"); // Replace with your EmailJS Public Key
+
+  const form = document.querySelector("[data-form]");
+  const formBtn = document.querySelector(".form-btn");
+
+  form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const formData = {
+          fullname: form.fullname.value,
+          email: form.email.value,
+          message: form.message.value
+      };
+
+      formBtn.innerHTML = "Sending...";
+
+      emailjs.send("service_c1w9qhc", "template_oiyk1ud", formData)
+          .then(function () {
+              alert("Message sent successfully!");
+              form.reset();
+              formBtn.innerHTML = `<ion-icon name="paper-plane"></ion-icon> <span>Send Message</span>`;
+          }, function (error) {
+              alert("Failed to send message. Try again later.");
+              console.error("EmailJS Error:", error);
+              formBtn.innerHTML = `<ion-icon name="paper-plane"></ion-icon> <span>Send Message</span>`;
+          });
   });
-}
+});
+
 
 
 

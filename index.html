@@ -1528,30 +1528,28 @@
           </section>
 
           <section class="contact-form">
-
             <h3 class="h3 form-title">Contact Form</h3>
-
-            <form action="#" class="form" data-form>
-
+          
+            <form action="https://formsubmit.co/pranavpisal2528@gmail.com" method="POST" data-form>
               <div class="input-wrapper">
-                <input type="text" name="fullname" class="form-input"
-                  placeholder="Full name" required data-form-input>
-
-                <input type="email" name="email" class="form-input"
-                  placeholder="Email address" required data-form-input>
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required>
               </div>
-
-              <textarea name="message" class="form-input"
-                placeholder="Your Message" required data-form-input></textarea>
-
-              <button class="form-btn" type="submit" disabled data-form-btn>
+          
+              <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+          
+              <!-- Hidden Fields -->
+              <input type="hidden" name="_next" value="#">
+              <input type="hidden" name="_subject" value="Portfolio contact">
+              <input type="hidden" name="_captcha" value="false">
+          
+              <button class="form-btn" type="submit">
                 <ion-icon name="paper-plane"></ion-icon>
                 <span>Send Message</span>
               </button>
-
             </form>
-
           </section>
+          
 
         </article>
 
@@ -1563,6 +1561,8 @@
     - custom js link
   -->
     <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 
     <!--
     - ionicon link
